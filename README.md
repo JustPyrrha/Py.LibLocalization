@@ -1,3 +1,6 @@
+![Discord](https://img.shields.io/discord/841011788195823626?style=flat-square&logo=discord&logoColor=white&link=https%3A%2F%2Fdiscord.gg%2FZDjjbRwzs4)
+![GitHub all releases](https://img.shields.io/github/downloads/JustPyrrha/Py.LibLocalization/total?style=flat-square)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/JustPyrrha/Py.LibLocalization?style=flat-square&link=https%3A%2F%2Fgithub.com%2Forendain%2FDemeoMods%2Freleases%2Flatest)
 # Py.LibLocalization
 
 A simple library for adding custom localizations to [Demeo](https://www.resolutiongames.com/demeo).
