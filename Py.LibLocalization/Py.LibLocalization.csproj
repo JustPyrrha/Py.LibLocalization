@@ -27,6 +27,6 @@
     </ItemGroup>
 
     <Target Name="CopyOutputFileToDemeoDir" AfterTargets="Build">
-        <Copy SourceFiles="$(OutputPath)\$(AssemblyName).dll" DestinationFolder="$(DemeoDir)\DemeoMods\Py.Localization" />
+        <Copy SourceFiles="$(OutputPath)\$(AssemblyName).dll" DestinationFolder="$(DemeoDir)\DemeoMods\Py.LibLocalization" />
     </Target>
 </Project>
