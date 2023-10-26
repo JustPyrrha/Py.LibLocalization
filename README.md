@@ -3,7 +3,7 @@
 A simple library for adding custom localizations to [Demeo](https://www.resolutiongames.com/demeo).
 
 ## Installation
-Download the [latest stable release](https://github.com/orendain/DemeoMods/releases/latest)'s `Py.LibLocalization-version.zip` file
+Download the [latest stable release](https://github.com/JustPyrrha/Py.LibLocalization/releases/latest)'s `Py.LibLocalization-version.zip` file
 and extract it into your Demeo game folder.
 
 You should have a folder structure that looks like this:
