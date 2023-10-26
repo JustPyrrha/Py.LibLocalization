@@ -28,7 +28,7 @@ and `Py.LibLocalization.dll`
 
 1. Start by getting the singleton instance of LocalRegistry.
     ```csharp
-    var registry = Fedility.Singlton.Singleton<Py.LibLocalization.LocaleRegistry>.Instance;
+    var registry = Fidelity.Singleton.Singleton<Py.LibLocalization.LocaleRegistry>.Instance;
     ```
 2. Add localization(s)
    > [!WARNING]
@@ -38,7 +38,7 @@ and `Py.LibLocalization.dll`
    // Add many
    registry.AddLocalizations(
        "en-US",
-       new Dictonary<string, string>
+       new Dictionary<string, string>
        {
            { "Card/mycard/title", "My Custom Card" },
            { "Card/mycard/description", "Look at this card I made!" }
