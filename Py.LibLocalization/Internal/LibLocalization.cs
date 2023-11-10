@@ -1,9 +1,9 @@
 ﻿using System;
 using Boardgame.Modding;
 using Fidelity.Singleton;
-using Py.LibLocalization.Utils;
+using Py.LibLocalization.Internal.Utils;
 
-namespace Py.LibLocalization
+namespace Py.LibLocalization.Internal
 {
     // ReSharper disable once UnusedType.Global
     public class LibLocalization : DemeoMod

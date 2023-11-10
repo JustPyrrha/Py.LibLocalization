@@ -4,7 +4,7 @@ using Fidelity.Localization;
 using Fidelity.Singleton;
 using HarmonyLib;
 
-namespace Py.LibLocalization.Utils
+namespace Py.LibLocalization.Internal.Utils
 {
     public static class ModPatches
     {

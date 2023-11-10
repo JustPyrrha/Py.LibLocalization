@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using UnityEngine;
 
-namespace Py.LibLocalization.Utils
+namespace Py.LibLocalization.Internal.Utils
 {
     public static class HarmonyLoader
     {
