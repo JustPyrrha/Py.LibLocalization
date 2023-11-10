@@ -32,7 +32,8 @@ and `Py.LibLocalization.dll`
 
 1. Start by getting the singleton instance of LocalRegistry.
     ```csharp
-    var registry = Fidelity.Singleton.Singleton<Py.LibLocalization.LocaleRegistry>.Instance;
+    using Py.LibLocalization;
+    var registry = LocaleRegistry.Instance;
     ```
 2. Add localization(s)
    > [!WARNING]
