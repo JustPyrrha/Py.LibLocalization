@@ -1,6 +1,4 @@
-﻿using System;
-using Boardgame.Modding;
-using Fidelity.Singleton;
+﻿using Boardgame.Modding;
 using Py.LibLocalization.Internal.Utils;
 
 namespace Py.LibLocalization.Internal
@@ -16,13 +14,13 @@ namespace Py.LibLocalization.Internal
             }
             else
             {
-                Console.WriteLine("[Py.LibLocalization] ERROR | Failed to load Harmony, Py.LibLocalization WILL NOT WORK.");
+                ModLog.LogError("Failed to load Harmony, Py.LibLocalization WILL NOT WORK.");
             }
         }
 
         public override void Load()
         {
-            Singleton<LocaleRegistry>.Instance.Refresh();
+            LocaleRegistry.Instance.Refresh();
         }
 
         public override ModdingAPI.ModInformation ModInformation { get; } = new()

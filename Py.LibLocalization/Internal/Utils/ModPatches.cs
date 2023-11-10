@@ -10,7 +10,7 @@ namespace Py.LibLocalization.Internal.Utils
     {
         public static void Patch()
         {
-            var harmony = new Harmony("Py.Localization");
+            var harmony = new Harmony("Py.LibLocalization");
             harmony.Patch(
                 original: AccessTools.Method(typeof(Locale), "TryLoadStrings"),
                 postfix: new HarmonyMethod(typeof(ModPatches), nameof(Locale_TryLoadStrings_Postfix))
@@ -29,7 +29,7 @@ namespace Py.LibLocalization.Internal.Utils
             {
                 ___strings[id] = localization;
             }
-            Console.WriteLine($"[Py.LibLocalization] Loaded {modStrings.Count} custom localizations for {___currentLocale}.");
+            ModLog.Log($"Loaded {modStrings.Count} custom localizations for {___currentLocale}.");
         }
     }
 }
