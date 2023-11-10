@@ -13,7 +13,7 @@ namespace Py.LibLocalization.Internal.Utils
                 Path.Combine(
                     Path.GetDirectoryName(Application.dataPath)!,
                     "DemeoMods",
-                    "Py.Localization"
+                    "Py.LibLocalization"
                 )
             );
 
