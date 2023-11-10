@@ -27,7 +27,7 @@ namespace Py.LibLocalization.Internal
         {
             name = "Py.LibLocalization",
             author = "JustPyrrha",
-            version = "1.0.0",
+            version = "1.1.0",
             description = "Mod localization library.",
             isNetworkCompatible = true
         };
